@@ -65,7 +65,9 @@
         rowsDisplayed="5"
         >
     <ec:exportXls fileName="Test.xls"/>
-    <ec:exportPdf fileName="Test.pdf"/>
+    <ec:exportPdf fileName="Test.pdf"
+                  headerColor="#FFF" headerBackgroundColor="#666"
+                  headerTitle="Presidents"/>
     <ec:exportCsv fileName="Test.csv"/>
     <ec:row>
         <ec:column property="name"/>
